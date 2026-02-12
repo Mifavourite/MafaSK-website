@@ -541,60 +541,6 @@ a {
     color: var(--gray-400);
 }
 
-/* Credentials & Certifications */
-.credentials-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: 1.5rem;
-    margin-top: 2rem;
-}
-
-.credential-card {
-    background: var(--white);
-    border: 1px solid var(--gray-100);
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 2px 8px rgba(74, 44, 122, 0.06);
-    transition: box-shadow 0.2s;
-}
-
-.credential-card:hover {
-    box-shadow: 0 4px 16px rgba(74, 44, 122, 0.12);
-}
-
-.credential-link {
-    display: block;
-    background: var(--gray-100);
-    aspect-ratio: 3 / 4;
-    overflow: hidden;
-}
-
-.credential-img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: top center;
-    transition: transform 0.25s;
-}
-
-.credential-link:hover .credential-img {
-    transform: scale(1.03);
-}
-
-.credential-card > .credential-title {
-    font-size: 1.05rem;
-    font-weight: 700;
-    color: var(--mafan-purple);
-    margin: 0.75rem 1rem 0.35rem;
-}
-
-.credential-desc {
-    font-size: 0.9rem;
-    line-height: 1.5;
-    color: var(--gray-600);
-    margin: 0 1rem 1rem;
-}
-
 /* Donate blocks */
 .donate-block {
     margin: 2rem 0 0;
